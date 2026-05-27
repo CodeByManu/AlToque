@@ -1,0 +1,6 @@
+Generic single-database configuration for AlToque.
+
+Comandos basicos:
+  alembic upgrade head            # aplica todas las migraciones
+  alembic revision --autogenerate -m "mensaje"   # nueva migracion desde cambios en models.py
+  alembic downgrade -1            # revertir ultima

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-beige text-ink font-sans antialiased;
+}
+
+@keyframes pulse-alert {
+  0% {
+    box-shadow: 0 0 0 0 rgba(217, 119, 87, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(217, 119, 87, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(217, 119, 87, 0);
+  }
+}
+
+.pulse-alert {
+  animation: pulse-alert 1.4s ease-out 2;
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.toast-enter {
+  animation: slide-in-right 0.35s ease-out;
+}
