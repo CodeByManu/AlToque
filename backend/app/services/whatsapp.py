@@ -10,7 +10,6 @@ import uuid
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
-from sqlalchemy import select
 from sqlalchemy.orm import Session
 from twilio.base.exceptions import TwilioRestException
 from twilio.rest import Client
@@ -114,32 +113,28 @@ def send_alert(response_id: uuid.UUID) -> None:
         db.refresh(alert)
 
         # Avisar al dashboard ahora que la fila existe (asi el refetch la ve).
-        broadcast_event(
-            str(response.restaurant_id),
-            {
-                "type": "new_alert",
-                "data": {
-                    "id": str(alert.id),
-                    "response_id": str(response.id),
-                    "rating": response.rating,
+        # try/except: un fallo de WS no debe cortar el envío de WhatsApp.
+        try:
+            broadcast_event(
+                str(response.restaurant_id),
+                {
+                    "type": "new_alert",
+                    "data": {
+                        "id": str(alert.id),
+                        "response_id": str(response.id),
+                        "rating": response.rating,
+                    },
                 },
-            },
-        )
-
-        ctx_stmt = (
-            select(
-                models.Restaurant.name,
-                models.Table.number,
-                models.Waiter.name,
-                models.Question.text,
             )
-            .join(models.Table, models.Table.id == response.table_id)
-            .join(models.Waiter, models.Waiter.id == response.waiter_id)
-            .join(models.Question, models.Question.id == response.question_id)
-            .where(models.Restaurant.id == response.restaurant_id)
-        )
-        row = db.execute(ctx_stmt).first()
-        if row is None:
+        except Exception as exc:
+            logger.warning("send_alert: broadcast WS fallido (no crítico): %s", exc)
+
+        restaurant = db.get(models.Restaurant, response.restaurant_id)
+        table = db.get(models.Table, response.table_id)
+        waiter = db.get(models.Waiter, response.waiter_id)
+        question = db.get(models.Question, response.question_id)
+
+        if not all([restaurant, table, waiter, question]):
             logger.error(
                 "send_alert: no se pudo resolver contexto para response %s",
                 response_id,
@@ -148,7 +143,10 @@ def send_alert(response_id: uuid.UUID) -> None:
             db.commit()
             return
 
-        restaurant_name, table_number, waiter_name, question_text = row
+        restaurant_name = restaurant.name
+        table_number = table.number
+        waiter_name = waiter.name
+        question_text = question.text
 
         if not config.twilio_configured():
             logger.warning(

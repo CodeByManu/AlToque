@@ -1,0 +1,52 @@
+com.altoque.app-animation-core-release-0 /Users/manueltagle/.gradle/caches/transforms-4/0182d4641a50fba068c7ec18effb2497/transformed/animation-core-release/res
+com.altoque.app-activity-1.9.0-1 /Users/manueltagle/.gradle/caches/transforms-4/05cdc9a5aa5ed72c780a7a531dfc1412/transformed/activity-1.9.0/res
+com.altoque.app-material-ripple-release-2 /Users/manueltagle/.gradle/caches/transforms-4/14384b2e5a61637575fd25c33bdb2ca6/transformed/material-ripple-release/res
+com.altoque.app-lifecycle-livedata-core-2.7.0-3 /Users/manueltagle/.gradle/caches/transforms-4/151b24cf124db123cb99d9a8e78acf49/transformed/lifecycle-livedata-core-2.7.0/res
+com.altoque.app-core-ktx-1.13.0-4 /Users/manueltagle/.gradle/caches/transforms-4/250b185800d778a4579537d9b22d5cbe/transformed/core-ktx-1.13.0/res
+com.altoque.app-lifecycle-viewmodel-savedstate-2.7.0-5 /Users/manueltagle/.gradle/caches/transforms-4/2a23964db2a7d1f12e86f7b05b18b787/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.altoque.app-navigation-common-2.7.7-6 /Users/manueltagle/.gradle/caches/transforms-4/2c50428ff1e33f5b0d5394deb6484b43/transformed/navigation-common-2.7.7/res
+com.altoque.app-lifecycle-viewmodel-compose-2.7.0-7 /Users/manueltagle/.gradle/caches/transforms-4/30406b07a6913f65067a846d5ca3d162/transformed/lifecycle-viewmodel-compose-2.7.0/res
+com.altoque.app-lifecycle-process-2.7.0-8 /Users/manueltagle/.gradle/caches/transforms-4/33134077ef27d88008153196483cb269/transformed/lifecycle-process-2.7.0/res
+com.altoque.app-customview-poolingcontainer-1.0.0-9 /Users/manueltagle/.gradle/caches/transforms-4/38c042be23ea26c88e98594ae78e1dc5/transformed/customview-poolingcontainer-1.0.0/res
+com.altoque.app-navigation-runtime-2.7.7-10 /Users/manueltagle/.gradle/caches/transforms-4/48f328efb9461453f4a225aa050101c1/transformed/navigation-runtime-2.7.7/res
+com.altoque.app-lifecycle-runtime-2.7.0-11 /Users/manueltagle/.gradle/caches/transforms-4/50d096d5280994cc28a1e0cc3929add6/transformed/lifecycle-runtime-2.7.0/res
+com.altoque.app-foundation-layout-release-12 /Users/manueltagle/.gradle/caches/transforms-4/55e19460ecb1249ca286b96c7821267f/transformed/foundation-layout-release/res
+com.altoque.app-activity-compose-1.9.0-13 /Users/manueltagle/.gradle/caches/transforms-4/57a2ab97c839bd73e68127672bdfa5f5/transformed/activity-compose-1.9.0/res
+com.altoque.app-ui-tooling-preview-release-14 /Users/manueltagle/.gradle/caches/transforms-4/5db60a2f4c6389f6814f0a273f9926d1/transformed/ui-tooling-preview-release/res
+com.altoque.app-activity-ktx-1.9.0-15 /Users/manueltagle/.gradle/caches/transforms-4/5ddb4cfb520a6a1f9509fdea260818ef/transformed/activity-ktx-1.9.0/res
+com.altoque.app-material-icons-core-release-16 /Users/manueltagle/.gradle/caches/transforms-4/5e49e79f681a3d695234e19a6e30184f/transformed/material-icons-core-release/res
+com.altoque.app-ui-unit-release-17 /Users/manueltagle/.gradle/caches/transforms-4/631298954f3ca9e44c6d116e4634bc0e/transformed/ui-unit-release/res
+com.altoque.app-ui-text-release-18 /Users/manueltagle/.gradle/caches/transforms-4/69b2e23f4772cc934be03f03d2d5377e/transformed/ui-text-release/res
+com.altoque.app-navigation-common-ktx-2.7.7-19 /Users/manueltagle/.gradle/caches/transforms-4/6e6f0180546305602528f47cc8c7e01a/transformed/navigation-common-ktx-2.7.7/res
+com.altoque.app-lifecycle-runtime-ktx-2.7.0-20 /Users/manueltagle/.gradle/caches/transforms-4/73a9891d183b519e8afa1f8a8394d565/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.altoque.app-ui-tooling-data-release-21 /Users/manueltagle/.gradle/caches/transforms-4/77c5821860a1423358c9bf8da9a71d37/transformed/ui-tooling-data-release/res
+com.altoque.app-animation-release-22 /Users/manueltagle/.gradle/caches/transforms-4/7cdf9592d93516ea6bba1a9ac8503c95/transformed/animation-release/res
+com.altoque.app-foundation-release-23 /Users/manueltagle/.gradle/caches/transforms-4/7fbe3ae8399ba0d5e39bb614af90e91c/transformed/foundation-release/res
+com.altoque.app-material3-release-24 /Users/manueltagle/.gradle/caches/transforms-4/8765a23a15a47f097e7dd970c3aa219a/transformed/material3-release/res
+com.altoque.app-material-release-25 /Users/manueltagle/.gradle/caches/transforms-4/889c68e0aed1f1272fb4a51467ef79e4/transformed/material-release/res
+com.altoque.app-navigation-compose-2.7.7-26 /Users/manueltagle/.gradle/caches/transforms-4/8e0638e6534ac4bad7de3a32012939a9/transformed/navigation-compose-2.7.7/res
+com.altoque.app-ui-geometry-release-27 /Users/manueltagle/.gradle/caches/transforms-4/91f06e807483490e35474ad6964e987e/transformed/ui-geometry-release/res
+com.altoque.app-runtime-saveable-release-28 /Users/manueltagle/.gradle/caches/transforms-4/9a0f323ba16c232b13d2dae2f61524d5/transformed/runtime-saveable-release/res
+com.altoque.app-startup-runtime-1.1.1-29 /Users/manueltagle/.gradle/caches/transforms-4/9b92388a58df75451a3c01f23cbd6422/transformed/startup-runtime-1.1.1/res
+com.altoque.app-core-runtime-2.2.0-30 /Users/manueltagle/.gradle/caches/transforms-4/a29a0e678838e18c215d879ba67f954b/transformed/core-runtime-2.2.0/res
+com.altoque.app-savedstate-ktx-1.2.1-31 /Users/manueltagle/.gradle/caches/transforms-4/a7999d4e10b0d6986d1289c0f748a228/transformed/savedstate-ktx-1.2.1/res
+com.altoque.app-ui-util-release-32 /Users/manueltagle/.gradle/caches/transforms-4/ac8dd80d721f219fe3f3c68dc68c79bb/transformed/ui-util-release/res
+com.altoque.app-ui-graphics-release-33 /Users/manueltagle/.gradle/caches/transforms-4/ae79045a7ef25e2d608ef0ed448b5c7d/transformed/ui-graphics-release/res
+com.altoque.app-core-1.13.0-34 /Users/manueltagle/.gradle/caches/transforms-4/b1c8c0cc025a659a052fd2c97859800b/transformed/core-1.13.0/res
+com.altoque.app-runtime-release-35 /Users/manueltagle/.gradle/caches/transforms-4/b671894b01b6b2d7044081c3a765bfa6/transformed/runtime-release/res
+com.altoque.app-lifecycle-viewmodel-ktx-2.7.0-36 /Users/manueltagle/.gradle/caches/transforms-4/b6bf0a496271434b1304a1f0b2f96ea7/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.altoque.app-lifecycle-viewmodel-2.7.0-37 /Users/manueltagle/.gradle/caches/transforms-4/bfed6d427d0702030216e766e076495c/transformed/lifecycle-viewmodel-2.7.0/res
+com.altoque.app-ui-release-38 /Users/manueltagle/.gradle/caches/transforms-4/d187208247f1641df3ea829188aa9a0a/transformed/ui-release/res
+com.altoque.app-annotation-experimental-1.4.0-39 /Users/manueltagle/.gradle/caches/transforms-4/dd6e2a1aeda638e010a3f337dea64b23/transformed/annotation-experimental-1.4.0/res
+com.altoque.app-emoji2-1.3.0-40 /Users/manueltagle/.gradle/caches/transforms-4/e96aa743145fc33dc952d2bef5cddf76/transformed/emoji2-1.3.0/res
+com.altoque.app-savedstate-1.2.1-41 /Users/manueltagle/.gradle/caches/transforms-4/eca4b142a3ea0bf35136642dae7cbade/transformed/savedstate-1.2.1/res
+com.altoque.app-profileinstaller-1.3.1-42 /Users/manueltagle/.gradle/caches/transforms-4/efa0e2976b14da1cc80ce33bf0dc367c/transformed/profileinstaller-1.3.1/res
+com.altoque.app-navigation-runtime-ktx-2.7.7-43 /Users/manueltagle/.gradle/caches/transforms-4/f52ea77d9473700d724ba05418da4901/transformed/navigation-runtime-ktx-2.7.7/res
+com.altoque.app-ui-tooling-release-44 /Users/manueltagle/.gradle/caches/transforms-4/fba55d6231ff4b50161ce06f9c98e6b4/transformed/ui-tooling-release/res
+com.altoque.app-pngs-45 /Users/manueltagle/Desktop/ManuMac/UANDES/2026/Emp. E Innovacion/Proyecto/P3/android/app/build/generated/res/pngs/debug
+com.altoque.app-resValues-46 /Users/manueltagle/Desktop/ManuMac/UANDES/2026/Emp. E Innovacion/Proyecto/P3/android/app/build/generated/res/resValues/debug
+com.altoque.app-packageDebugResources-47 /Users/manueltagle/Desktop/ManuMac/UANDES/2026/Emp. E Innovacion/Proyecto/P3/android/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.altoque.app-packageDebugResources-48 /Users/manueltagle/Desktop/ManuMac/UANDES/2026/Emp. E Innovacion/Proyecto/P3/android/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.altoque.app-debug-49 /Users/manueltagle/Desktop/ManuMac/UANDES/2026/Emp. E Innovacion/Proyecto/P3/android/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.altoque.app-debug-50 /Users/manueltagle/Desktop/ManuMac/UANDES/2026/Emp. E Innovacion/Proyecto/P3/android/app/src/debug/res
+com.altoque.app-main-51 /Users/manueltagle/Desktop/ManuMac/UANDES/2026/Emp. E Innovacion/Proyecto/P3/android/app/src/main/res

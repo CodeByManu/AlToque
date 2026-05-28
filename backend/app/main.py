@@ -5,7 +5,7 @@ from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 
 from app import config
-from app.routers import admin, alerts, dashboard, responses, restaurants, sessions
+from app.routers import admin, alerts, dashboard, responses, restaurants, sessions, tables, waiters
 from app.ws import manager
 
 # Logging estructurado segun CLAUDE.md regla 4
@@ -31,6 +31,8 @@ app.include_router(responses.router)
 app.include_router(dashboard.router)
 app.include_router(restaurants.router)
 app.include_router(alerts.router)
+app.include_router(tables.router)
+app.include_router(waiters.router)
 app.include_router(admin.router)
 
 

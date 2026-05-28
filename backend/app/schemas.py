@@ -102,6 +102,22 @@ class RestaurantOut(BaseModel):
     name: str
 
 
+# --- Mesas y Garzones ---
+
+class TableOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: UUID
+    number: int
+
+
+class WaiterOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: UUID
+    name: str
+
+
 # --- Admin ---
 
 class SeedOut(BaseModel):
